@@ -1,0 +1,102 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo h1 {
+  font-size: 2rem;
+  margin-left: 2rem;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 10px 5px;
+  padding: 5px 2px;
+}
+
+.menu li a:hover {
+  border-bottom: 1px solid black;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: 2rem;
+}
+
+.icons a {
+  color: #555;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.icons a:hover {
+  color: #1da1f2;
+}
+
+.home {
+  display: flex;
+  gap: 1rem;
+  max-width: 95%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.Home-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  width: 100%;
+  max-width: 450px;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-text {
+  padding: 1rem;
+}
+
+.card-text h3 {
+  margin: 0.5rem 0;
+}
+.card-text h6 {
+  margin: 0;
+  font-weight: lighter;
+}
+.card-text a {
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: bold;
+}
